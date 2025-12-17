@@ -132,18 +132,20 @@ export default function ConfirmationPage() {
 
                     {/* Action Buttons */}
                     <div className="flex flex-col sm:flex-row gap-4">
-                        <Button asChild size="lg" className="flex-1">
-                            <Link href="/dashboard">
-                                <Icon name="dashboard" />
-                                Buka Dashboard
-                            </Link>
-                        </Button>
-                        <Button asChild variant="outline" size="lg" className="flex-1">
-                            <Link href="/dashboard/devices">
-                                <Icon name="devices" />
-                                Aktifkan Perangkat
-                            </Link>
-                        </Button>
+                        <Link
+                            href="/dashboard"
+                            className="flex-1 inline-flex items-center justify-center gap-2 h-12 px-6 rounded-xl bg-primary text-white font-semibold text-base hover:bg-[#c46a03] transition-colors shadow-lg shadow-primary/30"
+                        >
+                            <Icon name="dashboard" />
+                            Buka Dashboard
+                        </Link>
+                        <Link
+                            href="/dashboard/devices"
+                            className="flex-1 inline-flex items-center justify-center gap-2 h-12 px-6 rounded-xl border-2 border-slate-200 dark:border-slate-700 text-slate-900 dark:text-white font-semibold text-base hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors"
+                        >
+                            <Icon name="devices" />
+                            Aktifkan Perangkat
+                        </Link>
                     </div>
 
                     {/* Email Notification */}
