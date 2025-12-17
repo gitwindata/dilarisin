@@ -1,0 +1,27 @@
+import {
+  Navbar,
+  HeroSection,
+  FeaturesSection,
+  HowItWorksSection,
+  PricingSection,
+  TestimonialsSection,
+  FAQSection,
+  CTASection,
+  Footer,
+} from '@/components/landing';
+
+export default function HomePage() {
+  return (
+    <main className="min-h-screen">
+      <Navbar />
+      <HeroSection />
+      <FeaturesSection />
+      <HowItWorksSection />
+      <PricingSection />
+      <TestimonialsSection />
+      <FAQSection />
+      <CTASection />
+      <Footer />
+    </main>
+  );
+}

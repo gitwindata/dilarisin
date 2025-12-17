@@ -1,0 +1,15 @@
+// Dashboard Components - Barrel Export
+export { DashboardSidebar } from './sidebar';
+export { DashboardHeader } from './header';
+export { SubscriptionCard } from './subscription-card';
+export { DeviceCard } from './device-card';
+export { StatCard } from './stat-card';
+export { ActivityTable } from './activity-table';
+export { CurrentPlanCard } from './current-plan-card';
+export { BillingHistoryTable } from './billing-history-table';
+export { DeviceList } from './device-list';
+export { AddDeviceModal } from './add-device-modal';
+export { ActivationCodeModal } from './activation-code-modal';
+export { ProfileForm } from './profile-form';
+export { PasswordForm } from './password-form';
+export { DangerZone } from './danger-zone';
